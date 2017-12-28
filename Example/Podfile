@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PublicTool_Example' do
+  pod 'PublicTool', :path => '../'
+
+  target 'PublicTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
